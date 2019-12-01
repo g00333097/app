@@ -1,0 +1,24 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span class="title-center">
+
+      <style>
+        h3 {
+
+          color:yellow
+        }
+        
+        </style>
+
+
+    <h3>  Motorcycle Records </h3>
+    </span>
+  </mat-toolbar-row>
+  <mat-toolbar-row>
+    <button mat-button [routerLink]="['/create']" color="Warn">Create</button>
+    <button mat-button [routerLink]="['/read']">Read</button>
+  </mat-toolbar-row>
+
+</mat-toolbar>
+
+<router-outlet></router-outlet>
